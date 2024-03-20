@@ -1,0 +1,141 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}   
+
+#contra-turno{
+    background-color: green;
+    height: 100%;
+    width: 33%;
+}
+
+#momentos{
+    background-color: blue;
+    height: 100%;
+    width: 33%;
+}
+
+#txt-sec{
+    background-color: black;
+    height: 100%;
+    width: 33%;
+}
+
+.imagem-cat{
+    height: 60%;
+}
+
+h2{
+    font-size: clamp(1em, 1em + 2vw, 5em);
+}  
+
+p{
+    font-size: clamp(0.5em, 1em + 0.5vw, 1em);
+    padding: 3%;
+}
+
+.txt-div{
+    height: 20%;
+    color: white;
+    text-align: center;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+button{
+    height: 40%;
+    width: 60%;
+    color: black;
+    font-size: 20px;
+    background-color: orangered;
+    border-style: none;
+}
+
+
+#but-um{
+    border-radius: 50px 0 50px 0;
+}
+
+#but-dois{
+    border-radius: 0px 0px 50px 50px;
+}
+
+#but-tres{
+    border-radius: 0px 50px 0px 50px;
+}
+/*-------------------------------hover-----------------------------*/
+
+@keyframes button{
+    from{
+        height: 40%;
+        width: 60%;
+        color: black;
+        font-size: 20px;
+        background-color: orangered;
+        border-style: none;     
+        transition: 1s;
+    }
+    to{
+        background-color: blueviolet;
+        color: white;
+        height: 60%;
+        width: 80%;
+        font-size: 40px;
+        transition: 1s;
+    }
+}
+
+button{
+    height: 40%;
+    width: 60%;
+    color: black;
+    font-size: 20px;
+    background-color: orangered;
+    border-style: none;     
+    transition: 1s;
+}
+
+button:hover{
+    background-color: blueviolet;
+    color: white;
+    height: 60%;
+    width: 80%;
+    font-size: 40px;
+    transition: 1s;
+}
+
+#but-um:hover{
+    border-radius: 20px 50px 20px 50px;
+    transition: 1s;
+}
+
+#but-dois:hover{
+    border-radius: 60px 200px 20px 60px;
+    transition: 1s;
+}
+
+#but-tres:hover{
+    border-radius: 200px 60px 80px 12px;
+    transition: 1s;
+}
+
+h2:hover{
+    font-size: clamp(1em, 1em + 3vw, 5em);
+    color: yellow;
+    transition: 0.5s;
+}

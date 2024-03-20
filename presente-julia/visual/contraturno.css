@@ -1,0 +1,44 @@
+body{
+    background-color: sienna;
+}
+
+.flex{
+    display: flex;
+    justify-content: row;
+}
+
+.item{
+    padding: 50px;
+    margin: 20px;
+}
+
+.m-box{
+    width: 70%;
+    height: 100%;
+}
+
+.v-box{
+    height: 100%;
+    width: 20%;
+}
+
+.space{
+    justify-content: space-between;
+}
+
+.box{
+    height: 100%;
+    width: 30%;
+}
+
+.green{
+    background-color: lightgreen;
+}
+
+.bege{
+    background-color: #d9d99b;
+}
+
+.violet{
+    background-color: violet;
+}

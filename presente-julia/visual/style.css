@@ -14,19 +14,21 @@ body{
 }   
 
 #contra-turno{
-    background-color: green;
+    background-color: saddlebrown;
     height: 100%;
     width: 33%;
 }
 
+/*springgreen, sienna, beige */
+
 #momentos{
-    background-color: blue;
+    background-color: #d9d99b;
     height: 100%;
     width: 33%;
 }
 
 #txt-sec{
-    background-color: black;
+    background-color: springgreen;
     height: 100%;
     width: 33%;
 }
@@ -129,9 +131,20 @@ button:hover{
     transition: 1s;
 }
 
-h2:hover{
+#contra-turno-txt:hover{
     font-size: clamp(1em, 1em + 3vw, 5em);
-    color: yellow;
+    color: lightgreen;
+    transition: 0.5s;
+}
+
+#momentos-txt:hover{    
+    font-size: clamp(1em, 1em + 3vw, 5em);
+    color: saddlebrown;
+    transition: 0.5s;}
+
+#surpresa-txt:hover{
+    font-size: clamp(1em, 1em + 3vw, 5em);
+    color: violet;
     transition: 0.5s;
 }
 
@@ -143,10 +156,13 @@ h2:hover{
 #nos-img:hover{
     width: 100%;
     border-style: dotted;
+    border-color: lightgreen;
     transition: 2s;
 }
 
-
+#dark-txt{
+    color: saddlebrown;
+}
 
 .img-branco{
     width: 80%;

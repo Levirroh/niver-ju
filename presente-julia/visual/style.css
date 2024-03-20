@@ -33,11 +33,16 @@ body{
 
 .imagem-cat{
     height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h2{
     font-size: clamp(1em, 1em + 2vw, 5em);
+    transition: 1s;
 }  
+
 
 p{
     font-size: clamp(0.5em, 1em + 0.5vw, 1em);
@@ -57,16 +62,6 @@ p{
     height: 20%;
 }
 
-button{
-    height: 40%;
-    width: 60%;
-    color: black;
-    font-size: 20px;
-    background-color: orangered;
-    border-style: none;
-}
-
-
 #but-um{
     border-radius: 50px 0 50px 0;
 }
@@ -81,7 +76,7 @@ button{
 /*-------------------------------hover-----------------------------*/
 
 @keyframes button{
-    from{
+    0%{
         height: 40%;
         width: 60%;
         color: black;
@@ -90,7 +85,7 @@ button{
         border-style: none;     
         transition: 1s;
     }
-    to{
+    100%{
         background-color: blueviolet;
         color: white;
         height: 60%;
@@ -138,4 +133,37 @@ h2:hover{
     font-size: clamp(1em, 1em + 3vw, 5em);
     color: yellow;
     transition: 0.5s;
+}
+
+#nos-img{
+    width: 80%;
+    transition: 2s;
+}
+
+#nos-img:hover{
+    width: 100%;
+    border-style: dotted;
+    transition: 2s;
+}
+
+
+
+.img-branco{
+    width: 80%;
+    transition: 2s;
+}
+
+
+
+.img-branco:hover{
+    width: 100%;
+    border-style: dotted;
+    transition: 2s;
+    border-color: white;
+}
+
+a{
+    text-align: center;
+    width: 100%;
+    height: 100%;
 }

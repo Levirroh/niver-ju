@@ -8,6 +8,10 @@ body{
     justify-content: row;
 }
 
+h2{
+    font-size: 2vw;
+}
+
 .item{
     padding: 30px;
     margin: 20px;
@@ -35,6 +39,7 @@ body{
 
 .green{
     background-color: lightgreen;
+    min-width: min-content;
 }
 
 .bege{

@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.flex{
+    display: flex;
+}
+
+body{
+    background-color: beige;
+}
+
+.between{
+    justify-content: space-evenly;
+    padding: 1vw;
+}
+
+#imagens{   
+    margin-left: 1vw;
+    margin-top: 1vw;
+    height: 25vw;
+    width: 65vw;
+    background-color: sienna;
+}
+
+#passeios{
+    margin-left: 1vw;
+    margin-top: 1vw;
+    height: 25vw;
+    width: 32vw;
+    background-color: sienna;
+}
+
+.img-div{
+    height: 50%;
+    width: 100%;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 2vw;
+    column-gap: 4vw;
+    margin: 1vw;
+}
+
+h2{
+    font-size: 2vw;
+    margin: 1vw;
+}
+
+
+
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 10vw;
+    border-style: dashed;
+    border-width: 2px;
+    box-shadow: 3px 3px 5px;
+    border-radius: 10px;
+}
+
+.box{
+    margin-left: 1vw;
+    margin-top: 1vw;
+    height: 17vw;
+    width: 32vw;
+    background-color: sienna;
+}

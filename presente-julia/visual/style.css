@@ -133,7 +133,7 @@ button:hover{
 
 #contra-turno-txt:hover{
     font-size: clamp(1em, 1em + 3vw, 5em);
-    color: lightgreen;
+    color: aquamarine;
     transition: 0.5s;
 }
 
@@ -144,7 +144,7 @@ button:hover{
 
 #surpresa-txt:hover{
     font-size: clamp(1em, 1em + 3vw, 5em);
-    color: violet;
+    color: indigo;
     transition: 0.5s;
 }
 
@@ -168,8 +168,6 @@ button:hover{
     width: 80%;
     transition: 2s;
 }
-
-
 
 .img-branco:hover{
     width: 100%;

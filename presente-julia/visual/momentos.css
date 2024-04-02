@@ -19,29 +19,31 @@ body{
 #imagens{   
     margin-left: 1vw;
     margin-top: 1vw;
-    height: 25vw;
-    width: 65vw;
+    width: 65%;
     background-color: sienna;
 }
 
 #passeios{
     margin-left: 1vw;
     margin-top: 1vw;
-    height: 25vw;
-    width: 32vw;
+    width: 32%;
     background-color: sienna;
 }
 
 .img-div{
-    height: 50%;
+    height: 90%;
     width: 100%;
+}
+
+img{
+    height: 100%;
 }
 
 .grid{
     display:grid;
     grid-template-columns: auto auto auto;
-    row-gap: 2vw;
-    column-gap: 4vw;
+    row-gap: 1vw;
+    column-gap: 1vw;
     margin: 1vw;
 }
 
@@ -50,12 +52,12 @@ h2{
     margin: 1vw;
 }
 
-
-
 .grid-item{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 img{
@@ -66,10 +68,18 @@ img{
     border-radius: 10px;
 }
 
+p{
+    margin-top: 10px;
+}
+
 .box{
     margin-left: 1vw;
     margin-top: 1vw;
-    height: 17vw;
-    width: 32vw;
+    height: auto;
+    width: 32%;
     background-color: sienna;
+}
+
+.content{
+    padding: 1vw;
 }
